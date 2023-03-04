@@ -4,13 +4,13 @@ Fivem QBCore Notify
 Foto : https://cdn.discordapp.com/attachments/1081604119241969724/1081683158061297855/image.png
 Video : https://streamable.com/ds6uj3
 
-<!-- qb-core>config içine atın -->
+qb-core>config içine atın
  
 QBConfig.KnoesNotify = true
 
 
 
-<!-- qb-core/client/functions.lua girin QBCore.Functions.Notify aratıp değiştirin-->
+qb-core/client/functions.lua girin QBCore.Functions.Notify aratıp değiştirin
 
 if QBCore.Config.KnoesNotify == true then
     function QBCore.Functions.Notify(text, textype, length)
