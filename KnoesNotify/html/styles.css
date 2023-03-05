@@ -1,0 +1,98 @@
+body {
+    margin-top: 25%;
+    font-family: "system-ui", monospace;
+    overflow: hidden;
+}
+
+.toast {
+    width: 5%;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: right;
+}
+
+.main {
+    margin: 5px 5px 5px 50px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 25px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+
+.success-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: rgb(0, 255, 0);
+}
+
+.success {
+    color: #f1eaea;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 0 0.1vw 0.1vw white;
+    background-image: url(https://cdn.discordapp.com/attachments/1081604119241969724/1081683481588932680/AcH8tB.gif);
+    background-size: 100%;
+    background-position: 30%;
+}
+
+
+
+.info-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #0080ffe8;
+}
+
+.info {
+    color: white;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 0 0.1vw 0.1vw white;
+    background-image: url(https://cdn.discordapp.com/attachments/1081604119241969724/1081683831997878413/ComplicatedYawningIndiancow-size_restricted.gif);
+    background-size: auto;
+    background-position: 30%;
+}
+
+
+.warning-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: white;
+}
+
+.warning {
+    color: white;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 0 0.1vw 0.1vw white;
+    background-image: url(https://media.discordapp.net/attachments/1081604119241969724/1081683775739674654/y0LB09.gif);
+    background-size: 100%;
+    background-position: 30%;
+}
+
+
+
+.error-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #ff002bd8;
+}
+
+.error {
+    color: white;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 0 0.1vw 0.1vw white;
+    background-image: url(https://cdn.discordapp.com/attachments/1081604119241969724/1081683976336441424/iLx.gif);
+    background-size: auto;
+    background-position: 30%;
+}
+
+
