@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+body {
+    margin-top: 27%;
+    font-family: "Oswald";
+    overflow: hidden;
+}
+
+.toast {
+    width: 5%;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: right;
+}
+
+.main {
+    margin: 10px 10px 10px 50px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 25px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+
+.success-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: rgb(0, 255, 0);
+}
+
+.success {
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(85deg, rgba(60, 255, 0, 0.4) 0%, rgba(138, 14, 119, 0.158) 80%);
+    background-color: #08070e !important;
+    overflow: hidden;
+}
+
+
+
+.info-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: rgba(0, 128, 255, 0.91);
+}
+
+.info {
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(85deg, rgba(0, 128, 255, 0.363) 0%, rgba(39, 46, 58, 0.582) 50%);
+    background-color: #273142 !important;
+    overflow: hidden;
+}
+
+
+.warning-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: yellow;
+}
+
+.warning {
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(85deg, rgba(255, 255, 0, 0.411) 0%, rgba(22, 18, 41, 0.281) 50%);
+    background-color: #090911 !important;
+    overflow: hidden;
+}
+
+
+
+.error-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: red;
+}
+
+.error {
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(85deg, rgba(255, 0, 0, 0.315) 0%, rgba(30, 23, 63, 0.281) 50%);
+    background-color: #100f1d !important;
+    overflow: hidden;
+}
+
+
